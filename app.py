@@ -1,13 +1,8 @@
 from flask import Flask, render_template, abort
+from flask_bootstrap import Bootstrap, WebCDN
 
 import trainings
 import functools
-import sys
-
-if sys.version_info > (3, 0):
-    from flask_bootstrap import Bootstrap, WebCDN
-else:
-    from flask.ext.bootstrap import Bootstrap, WebCDN
 
 def create_app():
     app = Flask(__name__)

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 
 python = {
     "course_title": "Python for System Administration",
@@ -11,7 +10,7 @@ python = {
     network application coding challenges.""",
 
 
-    "trainer_name": "Thura Hlaing – The Bugslayer",
+    "trainer_name": "Thura Hlaing - The Bugslayer",
     "trainer_image": "img/trainers/thura.jpg",
     "trainer_description": """This course is designed for students who are new
     to programming, and want to learn how to build Android apps. You
@@ -55,7 +54,7 @@ android = {
     network application coding challenges.""",
 
 
-    "trainer_name": "Thura Hlaing – The Bugslayer",
+    "trainer_name": "Thura Hlaing - The Bugslayer",
     "trainer_image": "img/trainers/thura.jpg",
     "trainer_description": """This course is designed for students who are new
     to programming, and want to learn how to build Android apps. You
@@ -97,8 +96,7 @@ laravel = {
     want a feature-rich, yet simple language to address web and
     network application coding challenges.""",
 
-
-    "trainer_name": "Thura Hlaing – The Bugslayer",
+    "trainer_name": "Thura Hlaing - The Bugslayer",
     "trainer_image": "img/trainers/thura.jpg",
     "trainer_description": """This course is designed for students who are new
     to programming, and want to learn how to build Android apps. You
