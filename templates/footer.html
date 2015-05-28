@@ -1,0 +1,63 @@
+<!-- Footer -->
+<footer>
+  <div class="footer-above">
+    <div class="container">
+      <div class="row">
+
+        <div id="about" class="footer-col col-md-4">
+          <h3>About Kagyi</h3>
+
+          <p class="">A boutique software training house in Yangon –
+          offering training courses in mobile and web application
+          development.
+	  </p>
+        </div>
+
+        <div class="footer-col col-md-4">
+          <h3>Training Courses</h3>
+	  <ul class="fa-ul">
+
+	    {% for each in courses %}
+	    <li><i class="fa-li fa fa-bars"></i>
+		<p> <a href="{{ each.course_link}}">{{ each.course_title }}</a> </p>
+	    </li>
+	    {% endfor %}
+
+        </div>
+
+	<div class="footer-col col-md-4">
+	  <h3 id="contact">Contact</h3>
+	    <ul class="fa-ul">
+	      <li><i class="fa-li fa fa-map-marker"></i>
+		<p class="text-left">
+		  23, West Horse Race Course Rd
+		  <br/>
+		  Tamwe Tsp, Yangon
+		</p>
+	      </li>
+	      <li><i class="fa-li fa fa-phone" ></i>
+		<p class="text-left">
+		  099-7381-2981
+		</p>
+	      </li>
+	      <li><i class="fa-li fa fa-envelope" ></i>
+		<p class="text-left">
+		  hello@kagyi.io
+		</p>
+	      </li>
+	    </ul>
+	</div>
+
+      </div>
+    </div>
+  </div>
+  <div class="footer-below">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          Copyright &copy; Kagyi Tech 2015. Powered by Python, Flask and Bootstrap.
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block maincontent %}
+  <div class="page-header">
+      <h1>{{ training.course_title }}</h1>
+  </div>
+
+<div class="row">
+  <div class="col-lg-9">
+
+    <div class="row">
+      <div class="col-lg-12">
+	<img src="{{ url_for('.static', filename=training.course_image )}} " class="img-responsive img-rounded">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+	<div class="page-header">
+	  <h2>Course Contents</h2>
+	</div>
+	<p>
+	  {{ training.course_description }}
+	</p>
+      </div>
+
+	<ul class="course-items">
+	  {% for syllabus_item in training.course_syllabus %}
+	  <div class="col-sm-6">
+	    <li class="course-item">{{ syllabus_item }}</li>
+	  </div>
+	  {% endfor %}
+	</ul>
+      </div>
+
+
+    <div class="row">
+      <div class="col-lg-12">
+	<div class="page-header">
+	  <h2>Course Prerequisites</h2>
+	</div>
+      </div>
+
+      <div class="col-lg-12">
+	<ul class="course-items">
+	  {% for prerequisite in training.course_prerequisites %}
+	    <li class="course-item">{{ prerequisite }}</li>
+	  {% endfor %}
+	</ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+	<div class="page-header">
+	  <h2>Course Trainers</h2>
+	</div>
+      </div>
+
+      <div class="col-sm-4">
+	<img src="{{ url_for('.static', filename=training.trainer_image)}} "
+	     class="img-responsive img-circle">
+      </div>
+      <div class="col-sm-8">
+	<h4>{{ training.trainer_name }}</h4>
+	<p>
+	  {{ training.trainer_description }}
+	</p>
+      </div>
+    </div>
+
+    <div class="row">
+      {% include "section_course_details.html" %}
+    </div>
+
+  </div>
+</div>
+<hr/>
+
+{% endblock %}

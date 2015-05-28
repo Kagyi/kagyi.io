@@ -1,0 +1,63 @@
+<div class="col-lg-12">
+  <div class="page-header">
+    <h2>Course Details</h2>
+  </div>
+</div>
+
+<div class="col-xs-5 col-sm-2">
+  <p>
+    <i class="fa fa-calendar-o"></i> Duration:
+  </p>
+</div>
+<div class="col-xs-7 col-sm-4">
+  <p>
+    {{ training.course_duration }}
+  </p>
+</div>
+
+<div class="col-xs-5 col-sm-2">
+  <p>
+    <i class="fa fa-clock-o"></i> Time:
+  </p>
+</div>
+<div class="col-xs-7 col-sm-4">
+  <p>
+    {{ training.course_time }}
+  </p>
+</div>
+
+<div class="col-xs-5 col-sm-2">
+  <p>
+    <i class="fa fa-money"></i> Price:
+  </p>
+</div>
+<div class="col-xs-7 col-sm-4">
+  <p>
+    {{ training.course_price }}Kyat
+  </p>
+</div>
+
+<div class="col-xs-5 col-sm-2">
+  <p>
+    <i class="fa fa-sellsy"></i> Discount:
+  </p>
+</div>
+<div class="col-xs-7 col-sm-4">
+  <p>
+    {{ training.course_discount }}
+  </p>
+</div>
+
+<div class="col-xs-5 col-sm-2">
+  <p>
+    <i class="fa fa-sellsy"></i> Next Class:
+  </p>
+</div>
+<div class="col-xs-7 col-sm-10">
+  <p>
+    {{ training.course_next_class }}
+  </p>
+  <p>
+  <mark class="text-danger">We don't accept more than twelve students for each calss. So, hurry up!</marks>
+</p>
+</div>
