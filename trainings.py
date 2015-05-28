@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 python = {
     "course_title": "Python for System Administration",
     "course_image": "img/courses/python.jpg",

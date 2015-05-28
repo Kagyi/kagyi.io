@@ -4,7 +4,6 @@ import trainings
 import functools
 import sys
 
-import sys
 if sys.version_info > (3, 0):
     from flask_bootstrap import Bootstrap, WebCDN
 else:
