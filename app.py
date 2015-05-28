@@ -1,6 +1,6 @@
 from flask import Flask, render_template, abort
-from flask.ext.bootstrap import Bootstrap
-from flask.ext.bootstrap import WebCDN
+from flask_bootstrap import Bootstrap
+from flask_bootstrap import WebCDN
 
 import trainings
 import functools
