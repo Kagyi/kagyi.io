@@ -274,11 +274,12 @@ footer .footer-below {
 
 a {
     color: #000000;
+    text-decoration: underline;
 }
 
 a:focus, a:hover {
     color: #000000;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .course-items {
