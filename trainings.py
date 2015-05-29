@@ -1,7 +1,7 @@
 PY4ADMIN = {
     "course_title": "Python for System Administration",
     "course_image": "img/courses/python.jpg",
-    "course_description": """This course will introduce basic python programming and how to use it effectively to automate and manage Linux/UNIX systems. Although this course will focus primarily on system administration, anyone with a keen interest to learn python is welcomed to join. """,
+    "course_description": """This course will introduce the essential features of python programming language and how to use it effectively to automate and manage Linux/UNIX systems. Although the course will focus primarily on system administration, anyone with a keen interest to learn python is welcomed to join. """,
 
     "trainer_name": "Thura Hlaing - The Lonesome Pythonista",
     "trainer_image": "img/trainers/thura.jpg",
@@ -12,11 +12,9 @@ PY4ADMIN = {
     <a href='https://github.com/trhura/mm-crawling-examples'>has</a>
     <a href='https://gist.github.com/trhura/7366740'>a</a>
     <a href='https://github.com/trhura/nautilus-renamer'>chance</a>.
-    Also in his previous short-lived life as network software engineer at Frontiir, Thura wrote many cool sripts for network autmoation like
+    Also in his previous short-lived life as network software engineer at Frontiir, Thura wrote cool network-related stuff like
     <a href='https://gist.github.com/trhura/5998584'>these</a>
     <a href='https://gist.github.com/trhura/5981683'>ones</a>.</p>
-
-    <p>As one of the very few python developers in Myanmar, Thura is now devoted to and convey
     """,
 
     "course_syllabus": [
@@ -25,9 +23,10 @@ PY4ADMIN = {
         "Conditionals & Control Flow",
         "Collections & List Comprehension",
         "Modules and Functoins",
-        "Classes and little doze of OOP",
+        "Classes and OOP",
+        "Work with Files",
         "Text Processing",
-        "Networking Automation",
+        "Network Automation",
     ],
 
     "course_prerequisites": [
