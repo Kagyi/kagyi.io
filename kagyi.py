@@ -19,7 +19,6 @@ def get_courses():
         course_info = getattr(trainings, course)
         course_link = '/training/' + course
         course_info['course_link'] = course_link
-        print course_link
         all_courses.append (course_info)
     return all_courses
 
