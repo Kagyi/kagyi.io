@@ -1,11 +1,13 @@
-PY4ADMIN = {
-    "course_title": "Python for System Administration",
-    "course_image": "img/courses/python.jpg",
-    "course_description": """This course will introduce the essential features of python programming language and how to use it effectively to automate and manage Linux/UNIX systems. Although the course will focus primarily on system administration, anyone with a keen interest to learn python is welcomed to join. """,
+# -*- coding: utf-8 -*-
 
-    "trainer_name": "Thura Hlaing - The Lonesome Pythonista",
+PY4ADMIN = {
+    "course_title": u"Python for System Administration",
+    "course_image": "img/courses/python.jpg",
+    "course_description": u"""This course will introduce the essential features of python programming language and how to use it effectively to automate and manage Linux/UNIX systems. Although the course will focus primarily on system administration, anyone with a keen interest to learn python is welcomed to join. """,
+
+    "trainer_name": u"Thura Hlaing - The Lonesome Pythonista",
     "trainer_image": "img/trainers/thura.jpg",
-    "trainer_description": """<p>Thura's first crush was cplusplus, which he met during the summer break in high school. In college, he flirted on and off with Java and lisp; but he was never serious with them. And once he laid his eyes on python, he knew that she's the one he is going to spend the rest of his life together.</p>
+    "trainer_description": u"""<p>Thura's first crush was cplusplus, which he met during the summer break in high school. In college, he flirted on and off with Java and lisp; but he was never serious with them. And once he laid his eyes on python, he knew that she's the one he is going to spend the rest of his life together.</p>
     <p>Since then, Thura has been writing scripts with python,
     <a href='https://gist.github.com/trhura/c2219325042382a20dee'>whenever</a>
     <a href='https://github.com/trhura/python-myanmar'>he</a>
@@ -30,9 +32,9 @@ PY4ADMIN = {
     ],
 
     "course_prerequisites": [
-        "Familiarity with Linux/UNIX systems – Ubuntu will be used excusively in this course.",
-        "Comfortable working with the commandline",
-        "Basic understanding of networking and Internet",
+        u"Familiarity with Linux/UNIX systems – Ubuntu will be used excusively in this course.",
+        u"Comfortable working with the commandline",
+        u"Basic understanding of networking and Internet",
     ],
 
     "course_duration": "8 Weeks",
@@ -46,7 +48,7 @@ PY4ADMIN = {
 android = {
     "course_title": "Developing Android Applications",
     "course_image": "img/courses/android.jpg",
-    "course_description": """Everything you need to know about network
+    "course_description": u"""Everything you need to know about network
     programming using Python, using the latest versions of Python
     networking modules. Foundations of Python Network Programming
     benefits both scripters and serious application developers who
@@ -56,7 +58,7 @@ android = {
 
     "trainer_name": "Thura Hlaing - The Bugslayer",
     "trainer_image": "img/trainers/thura.jpg",
-    "trainer_description": """This course is designed for students who are new
+    "trainer_description": u"""This course is designed for students who are new
     to programming, and want to learn how to build Android apps. You
     don’t need any programming experience to take this course. If
     you’ve been using a smartphone to surf the web and chat with
@@ -72,9 +74,9 @@ android = {
     ],
 
     "course_prerequisites": [
-        "You must be familiar with Linux and CLI to fully this training.",
-        "This course is designed for students who are new to programming.",
-        "This course is designed for students who are new to programming.",
+        u"You must be familiar with Linux and CLI to fully this training.",
+        u"This course is designed for students who are new to programming.",
+        u"This course is designed for students who are new to programming.",
     ],
 
 
@@ -89,7 +91,7 @@ android = {
 laravel = {
     "course_title": "Web Development with Laravel",
     "course_image": "img/courses/laravel.jpg",
-    "course_description": """Everything you need to know about network
+    "course_description": u"""Everything you need to know about network
     programming using Python, using the latest versions of Python
     networking modules. Foundations of Python Network Programming
     benefits both scripters and serious application developers who
@@ -98,7 +100,7 @@ laravel = {
 
     "trainer_name": "Thura Hlaing - The Bugslayer",
     "trainer_image": "img/trainers/thura.jpg",
-    "trainer_description": """This course is designed for students who are new
+    "trainer_description": u"""This course is designed for students who are new
     to programming, and want to learn how to build Android apps. You
     don’t need any programming experience to take this course. If
     you’ve been using a smartphone to surf the web and chat with
@@ -114,9 +116,9 @@ laravel = {
     ],
 
     "course_prerequisites": [
-        "You must be familiar with Linux and CLI to fully this training.",
-        "This course is designed for students who are new to programming.",
-        "This course is designed for students who are new to programming.",
+        u"You must be familiar with Linux and CLI to fully this training.",
+        u"This course is designed for students who are new to programming.",
+        u"This course is designed for students who are new to programming.",
     ],
 
 
