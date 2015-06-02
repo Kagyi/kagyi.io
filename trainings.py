@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-PY4ADMIN = {
+python = {
     "course_title": u"Python for System Administration",
     "course_image": "img/courses/python.jpg",
     "course_description": u"""This course will introduce the essential features of python programming language and how to use it effectively to automate and manage Linux/UNIX systems. Although the course will focus primarily on system administration, anyone with a keen interest to learn python is welcomed to join. """,
