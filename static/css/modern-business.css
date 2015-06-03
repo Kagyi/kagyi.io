@@ -36,6 +36,7 @@ body {
     border-color: #aaa;
     color: #000;
     opacity: 0.9;
+    padding: 10px 20px 10px 20px;
 }
 
 .btn-default:focus,
@@ -48,8 +49,8 @@ body {
 
 .btn-bottom {
     position:absolute;
-    bottom: 5px;
-    margin-bottom: 7px;
+    bottom: 30px;
+    left: 30px;
 }
 
 /* Home Page Carousel */
