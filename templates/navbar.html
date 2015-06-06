@@ -26,10 +26,22 @@
               <ul class="dropdown-menu" role="menu">
 
 		{% for each in courses %}
-		<li><a href="{{ each.course_link }}">{{ each.course_title }}</a></li>
+		<li><a href="{{ each.link }}">{{ each.title }}</a></li>
 		{% endfor %}
 
 		<li><a href="#" style="pointer-events: none;">Introduction to Java
+		    <span class="badge"><small>Soon</small></span></a></li>
+              </ul>
+            </li>
+
+	    <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Workshops <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+		{% for each in workshops %}
+		<li><a href="{{ each.link }}">{{ each.title }}</a></li>
+		{% endfor %}
+
+		<li><a href="#" style="pointer-events: none;">Version Control with Git
 		    <span class="badge"><small>Soon</small></span></a></li>
               </ul>
             </li>

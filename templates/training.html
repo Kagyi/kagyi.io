@@ -2,7 +2,7 @@
 
 {% block maincontent %}
   <div class="page-header">
-      <h1>{{ training.course_title }}</h1>
+      <h1>{{ training.title }}</h1>
   </div>
 
 <div class="row">
@@ -10,22 +10,22 @@
 
     <div class="row">
       <div class="col-lg-12">
-	<img src="{{ url_for('.static', filename=training.course_image )}} " class="img-responsive img-rounded">
+	<img src="{{ url_for('.static', filename=training.image )}} " class="img-responsive img-rounded">
       </div>
     </div>
 
     <div class="row">
       <div class="col-lg-12">
 	<div class="page-header">
-	  <h2>Course Contents</h2>
+	  <h2>Description</h2>
 	</div>
 	<p>
-	  {{ training.course_description }}
+	  {{ training.description | safe}}
 	</p>
       </div>
 
 	<ul class="course-items">
-	  {% for syllabus_item in training.course_syllabus %}
+	  {% for syllabus_item in training.syllabus %}
 	  <div class="col-sm-6">
 	    <li class="course-item">{{ syllabus_item }}</li>
 	  </div>
@@ -37,14 +37,14 @@
     <div class="row">
       <div class="col-lg-12">
 	<div class="page-header">
-	  <h2>Course Prerequisites</h2>
+	  <h2>Prerequisites</h2>
 	</div>
       </div>
 
       <div class="col-lg-12">
 	<ul class="course-items">
-	  {% for prerequisite in training.course_prerequisites %}
-	    <li class="course-item">{{ prerequisite }}</li>
+	  {% for prerequisite in training.prerequisites %}
+	    <li class="course-item">{{ prerequisite | safe }}</li>
 	  {% endfor %}
 	</ul>
       </div>
@@ -53,7 +53,7 @@
     <div class="row">
       <div class="col-lg-12">
 	<div class="page-header">
-	  <h2>Course Trainers</h2>
+	  <h2>Trainers</h2>
 	</div>
       </div>
 

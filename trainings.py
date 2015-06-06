@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 python = {
-    "course_title": u"Python for System Administration",
-    "course_image": "img/courses/python.jpg",
-    "course_description": u"""This course will introduce the essential features of python programming language and how to use it effectively to automate and manage Linux/UNIX systems. Although the course will focus primarily on system administration, anyone with a keen interest to learn python is welcomed to join. """,
+    "title": u"Python for System Administration",
+    "image": "img/courses/python.jpg",
+    "description": u"""This course will introduce the essential features of python programming language and how to use it effectively to automate and manage Linux/UNIX systems. Although the course will focus primarily on system administration, anyone with a keen interest to learn python is welcomed to join. """,
 
     "trainer_name": u"Thura Hlaing - The Lonesome Pythonista",
     "trainer_image": "img/trainers/thura.jpg",
@@ -19,7 +19,7 @@ python = {
     <a href='https://gist.github.com/trhura/5981683'>ones</a>.</p>
     """,
 
-    "course_syllabus": [
+    "syllabus": [
         "Installation & Introduction",
         "Primitive Types",
         "Conditionals & Control Flow",
@@ -31,23 +31,23 @@ python = {
         "Network Automation",
     ],
 
-    "course_prerequisites": [
+    "prerequisites": [
         u"Familiarity with Linux/UNIX systems – Ubuntu will be used excusively in this course.",
         u"Comfortable working with the commandline",
         u"Basic understanding of networking and Internet",
     ],
 
-    "course_duration": "10 Weeks",
-    "course_time" : "5:30 pm - 7:30 pm (Sat, Sun)",
-    "course_price" : "165,000 Kyat",
-    "course_discount": "TEN percent available for BYOD",
-    "course_next_class": "11th July, 2015"
+    "duration": "10 Weeks",
+    "time" : "5:30 pm - 7:30 pm (Sat, Sun)",
+    "price" : "165,000 Kyat",
+    "discount": "TEN percent available for BYOD",
+    "next_class": "11th July, 2015"
 }
 
 android = {
-    "course_title": "Developing Android Applications",
-    "course_image": "img/courses/android.jpg",
-    "course_description": u"""Everything you need to know about network
+    "title": "Developing Android Applications",
+    "image": "img/courses/android.jpg",
+    "description": u"""Everything you need to know about network
     programming using Python, using the latest versions of Python
     networking modules. Foundations of Python Network Programming
     benefits both scripters and serious application developers who
@@ -64,7 +64,7 @@ android = {
     friends, then you’re our perfect target student!""",
 
 
-    "course_syllabus": [
+    "syllabus": [
         "Syllabus Item",
         "Syllabus Item",
         "Syllabus Item",
@@ -72,25 +72,25 @@ android = {
         "Syllabus Item",
     ],
 
-    "course_prerequisites": [
+    "prerequisites": [
         u"You must be familiar with Linux and CLI to fully this training.",
         u"This course is designed for students who are new to programming.",
         u"This course is designed for students who are new to programming.",
     ],
 
 
-    "course_duration": "Two months",
-    "course_time" : "9:30 am - 11:30 am (Sat, Sun)",
-    "course_price" : "145,000 Kyat",
-    "course_discount": "ten percent for STUDENTS, BYOD, EARLY BIRDS",
+    "duration": "Two months",
+    "time" : "9:30 am - 11:30 am (Sat, Sun)",
+    "price" : "145,000 Kyat",
+    "discount": "ten percent for STUDENTS, BYOD, EARLY BIRDS",
 
-    "course_next_class": "4th July, 2015"
+    "next_class": "4th July, 2015"
 }
 
 laravel = {
-    "course_title": "Web Development with Laravel",
-    "course_image": "img/courses/laravel.jpg",
-    "course_description": u"""Everything you need to know about network
+    "title": "Web Development with Laravel",
+    "image": "img/courses/laravel.jpg",
+    "description": u"""Everything you need to know about network
     programming using Python, using the latest versions of Python
     networking modules. Foundations of Python Network Programming
     benefits both scripters and serious application developers who
@@ -106,7 +106,7 @@ laravel = {
     friends, then you’re our perfect target student!""",
 
 
-    "course_syllabus": [
+    "syllabus": [
         "Syllabus Item",
         "Syllabus Item",
         "Syllabus Item",
@@ -114,17 +114,17 @@ laravel = {
         "Syllabus Item",
     ],
 
-    "course_prerequisites": [
+    "prerequisites": [
         u"You must be familiar with Linux and CLI to fully this training.",
         u"This course is designed for students who are new to programming.",
         u"This course is designed for students who are new to programming.",
     ],
 
 
-    "course_duration": "Two months",
-    "course_time" : "9:30 am - 11:30 am (Sat, Sun)",
-    "course_price" : "145,000",
-    "course_discount": "ten percent for STUDENTS, BYOD, EARLY BIRDS",
+    "duration": "Two months",
+    "time" : "9:30 am - 11:30 am (Sat, Sun)",
+    "price" : "145,000",
+    "discount": "ten percent for STUDENTS, BYOD, EARLY BIRDS",
 
-    "course_next_class": "4th July, 2015"
+    "next_class": "4th July, 2015"
 }

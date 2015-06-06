@@ -1,6 +1,6 @@
 <div class="col-lg-12">
   <div class="page-header">
-    <h2>Course Details</h2>
+    <h2>Details</h2>
   </div>
 </div>
 
@@ -11,7 +11,7 @@
 </div>
 <div class="col-xs-7 col-sm-4">
   <p>
-    {{ training.course_duration }}
+    {{ training.duration }}
   </p>
 </div>
 
@@ -22,7 +22,7 @@
 </div>
 <div class="col-xs-7 col-sm-4">
   <p>
-    {{ training.course_time }}
+    {{ training.time }}
   </p>
 </div>
 
@@ -33,7 +33,7 @@
 </div>
 <div class="col-xs-7 col-sm-4">
   <p>
-    {{ training.course_price }}
+    {{ training.price | safe}}
   </p>
 </div>
 
@@ -44,7 +44,7 @@
 </div>
 <div class="col-xs-7 col-sm-4">
   <p>
-    {{ training.course_discount }}
+    {{ training.discount }}
   </p>
 </div>
 
@@ -55,9 +55,9 @@
 </div>
 <div class="col-xs-7 col-sm-10">
   <p>
-    {{ training.course_next_class }}
+    {{ training.next_class }}
   </p>
   <p>
-  <mark class="text-danger">We only accept fifteen students in each calss. So, hurry up!</marks>
+  <mark class="text-danger">{{ training.note }}</marks>
 </p>
 </div>
