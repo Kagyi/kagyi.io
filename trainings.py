@@ -37,12 +37,11 @@ python = {
         u"Basic understanding of networking and Internet",
     ],
 
-    "course_duration": "8 Weeks",
-    "course_time" : "5:00 pm - 7:30 pm (Sat, Sun)",
-    "course_price" : "145,000 Kyat",
-    "course_discount": "TEN percent available for STUDENTS, BYOD, EARLY BIRDS",
-
-    "course_next_class": "4th July, 2015"
+    "course_duration": "10 Weeks",
+    "course_time" : "5:30 pm - 7:30 pm (Sat, Sun)",
+    "course_price" : "165,000 Kyat",
+    "course_discount": "TEN percent available for BYOD",
+    "course_next_class": "11th July, 2015"
 }
 
 android = {
@@ -82,7 +81,7 @@ android = {
 
     "course_duration": "Two months",
     "course_time" : "9:30 am - 11:30 am (Sat, Sun)",
-    "course_price" : "145,000",
+    "course_price" : "145,000 Kyat",
     "course_discount": "ten percent for STUDENTS, BYOD, EARLY BIRDS",
 
     "course_next_class": "4th July, 2015"
