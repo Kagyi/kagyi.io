@@ -4,60 +4,75 @@
   </div>
 </div>
 
-<div class="col-xs-5 col-sm-2">
+<div class="col-xs-6 col-sm-3">
   <p>
-    <i class="fa fa-calendar-o"></i> Duration:
+    <i class="fa fa-lg  fa-calendar-o"></i> Duration:
   </p>
 </div>
-<div class="col-xs-7 col-sm-4">
+<div class="col-xs-6 col-sm-3">
   <p>
     {{ training.duration }}
   </p>
 </div>
 
-<div class="col-xs-5 col-sm-2">
+<div class="col-xs-6 col-sm-3">
   <p>
-    <i class="fa fa-clock-o"></i> Time:
+    <i class="fa fa-lg  fa-clock-o"></i> Time:
   </p>
 </div>
-<div class="col-xs-7 col-sm-4">
+<div class="col-xs-6 col-sm-3">
   <p>
-    {{ training.time }}
+    {{ training.time | safe }}
   </p>
 </div>
 
-<div class="col-xs-5 col-sm-2">
+<div class="col-xs-6 col-sm-3">
   <p>
-    <i class="fa fa-money"></i> Price:
+    <i class="fa fa-lg  fa-money"></i> Price:
   </p>
 </div>
-<div class="col-xs-7 col-sm-4">
+<div class="col-xs-6 col-sm-3">
   <p>
     {{ training.price | safe}}
   </p>
 </div>
 
-<div class="col-xs-5 col-sm-2">
+<div class="col-xs-6 col-sm-3">
   <p>
-    <i class="fa fa-sellsy"></i> Discount:
+    <i class="fa fa-lg  fa-sellsy"></i> Discount:
   </p>
 </div>
-<div class="col-xs-7 col-sm-4">
+<div class="col-xs-6 col-sm-3">
   <p>
     {{ training.discount }}
   </p>
 </div>
 
-<div class="col-xs-5 col-sm-2">
+<div class="col-xs-6 col-sm-3">
   <p>
-    <i class="fa fa-sellsy"></i> Next Class:
+    <i class="fa fa-lg  fa-calendar"></i> Next Class:
   </p>
 </div>
-<div class="col-xs-7 col-sm-10">
+<div class="col-xs-6 col-sm-9">
   <p>
     {{ training.next_class }}
   </p>
   <p>
-  <mark class="text-danger">{{ training.note }}</marks>
+    {% if training.class_note %}
+    <mark class="text-danger">{{ training.class_note }}</marks>
+    {% endif %}
 </p>
+</div>
+
+<div class="col-xs-6 col-sm-3">
+  <p>
+    <i class="fa fa-lg  fa-link"></i> Registration:
+  </p>
+</div>
+
+<div class="col-xs-6 col-sm-9">
+  <p> <a href="{{ training.registration_link }}"> {{ training.registration_link  }} </a></p>
+  {% if training.registration_note %}
+  <p> <mark class="text-danger">{{ training.registration_note }}</marks></p>
+  {% endif %}
 </div>

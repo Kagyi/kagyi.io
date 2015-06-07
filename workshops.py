@@ -3,9 +3,9 @@
 text_processing = {
     "title": u"Text Processing on Linux",
     "image": "img/workshops/text-processing.jpg",
-    "description": u"""<p>Have you ever wondered how many English words are there that starts with a `Q` and ends with an `E`? Have you ever wanted to know which ports were used by  `SNMP` protocol? Do you know that all those tasks can be quickly done or found with simple commands on a Linux system.</p>
+    "description": u"""<p>Do you know how many words are there in English that starts with a `Q` and ends with an `E`? Have you ever needed to know which ports were used by  `SNMP` protocol? Have you wanted to populate your current directory with a hundred folders with random English words?</p>
 
-    <p>Whether you are a system administrator or a developer who works frequently on linux, knowing how to use the relevant commands to manipulate the text files will boost your day-to-day productivity and save your time.</p>
+    <p>Do you know that all those tasks can be quickly done or found with simple commands on a Linux system? Whether you are a system administrator or a developer who works frequently on linux, knowing how to use the relevant commands to manipulate the text files will boost your day-to-day productivity and save your time.</p>
 
     <p>Usage of the following commands will be covered in this workshop – <strong>man, echo, cat, touch, tac, head, tail, grep, wc, sort, cut, paste, join, tr and tee.</strong></p>""",
 
@@ -31,8 +31,11 @@ text_processing = {
     "discount": "Not Applicable",
     "next_class": "21st Jun, 2015 (Sunday)",
 
-    "note": """Only twenty participants will be accepted in this
-    workshop. Please, register using the link below and note that your
-    seat will be confirmed only after you've confirmed via phone or
-    via email."""
+    "class_note": """Only twenty participants will be accepted in this
+    workshop. Please, register using the link below.""",
+
+    "registration_link": "http://goog.gl/AxssdE3",
+
+    "registration_note": "Please, note that your registration is completed only after you have confirmed with phone (01-555602) or email (admin@kagyi.io)",
+
 }

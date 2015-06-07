@@ -38,10 +38,11 @@ python = {
     ],
 
     "duration": "10 Weeks",
-    "time" : "5:30 pm - 7:30 pm (Sat, Sun)",
+    "time" : "5:30 - 7:30 pm <br/> (Sat, Sun)",
     "price" : "165,000 Kyat",
-    "discount": "TEN percent available for BYOD",
-    "next_class": "11th July, 2015"
+    "discount": "TEN for BYOD",
+    "next_class": "11th July, 2015",
+    "registration_link": "http://goog.gl/AxssdE3",
 }
 
 android = {
@@ -78,13 +79,13 @@ android = {
         u"This course is designed for students who are new to programming.",
     ],
 
-
     "duration": "Two months",
-    "time" : "9:30 am - 11:30 am (Sat, Sun)",
+    "time" : "9:30 - 11:30 am (Sat, Sun)",
     "price" : "145,000 Kyat",
-    "discount": "ten percent for STUDENTS, BYOD, EARLY BIRDS",
+    "discount": "TEN for BYOD",
 
-    "next_class": "4th July, 2015"
+    "next_class": "4th July, 2015",
+    "registration_link": "http://goog.gl/AxssdE3",
 }
 
 laravel = {
@@ -122,9 +123,10 @@ laravel = {
 
 
     "duration": "Two months",
-    "time" : "9:30 am - 11:30 am (Sat, Sun)",
+    "time" : "9:30 - 11:30 am (Sat, Sun)",
     "price" : "145,000",
-    "discount": "ten percent for STUDENTS, BYOD, EARLY BIRDS",
+    "discount": "TEN for BYOD",
 
-    "next_class": "4th July, 2015"
+    "next_class": "4th July, 2015",
+    "registration_link": "http://goog.gl/AxssdE3",
 }
