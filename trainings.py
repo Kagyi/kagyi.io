@@ -38,7 +38,7 @@ python = {
     ],
 
     "duration": "10 Weeks",
-    "time" : "5:30 - 7:30 pm <br/> (Sat, Sun)",
+    "time" : "5:30 - 7:30 pm (Sat, Sun)",
     "price" : "165,000 Kyat",
     "discount": "TEN for BYOD",
     "next_class": "11th July, 2015",
