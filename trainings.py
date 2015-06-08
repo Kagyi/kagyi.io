@@ -48,43 +48,38 @@ python = {
 android = {
     "title": "Developing Android Applications",
     "image": "img/courses/android.jpg",
-    "description": u"""Everything you need to know about network
-    programming using Python, using the latest versions of Python
-    networking modules. Foundations of Python Network Programming
-    benefits both scripters and serious application developers who
-    want a feature-rich, yet simple language to address web and
-    network application coding challenges.""",
+    "description": u"""This course blends theory and practice to help
+    you build great apps the right way. In this course, you'll work
+    with instructor step-by-step to build a cloud-connected Android
+    app, and learn best practices of mobile development, and Android
+    development in particular. This is a highly project-oriented
+    course.""",
 
-
-    "trainer_name": "Thura Hlaing - The Bugslayer",
-    "trainer_image": "img/trainers/thura.jpg",
-    "trainer_description": u"""This course is designed for students who are new
-    to programming, and want to learn how to build Android apps. You
-    don’t need any programming experience to take this course. If
-    you’ve been using a smartphone to surf the web and chat with
-    friends, then you’re our perfect target student!""",
-
+    "trainer_name": "Ye Myat Thu - The Delinquent Developer",
+    "trainer_image": "img/trainers/yemyat.jpg",
+    "trainer_description": u"""WANTED""",
 
     "syllabus": [
-        "Syllabus Item",
-        "Syllabus Item",
-        "Syllabus Item",
-        "Syllabus Item",
-        "Syllabus Item",
+        "Installation / setting up",
+        "New Project with a simple UI",
+        "Connect with the Restful API",
+        "New Activities and Fragment",
+        "Using Sqlite Database",
+        "Rich and resxponsive layouts",
+        "Background Services and Notifications",
     ],
 
     "prerequisites": [
-        u"You must be familiar with Linux and CLI to fully this training.",
-        u"This course is designed for students who are new to programming.",
-        u"This course is designed for students who are new to programming.",
+        u"Must know basic programming concepts (conditionals, looping, operators, etc..)",
+        u"Must preferably be familiar with any OOP language such as Java or C++",
     ],
 
-    "duration": "Two months",
-    "time" : "9:30 - 11:30 am (Sat, Sun)",
-    "price" : "145,000 Kyat",
+    "duration": "Ten Weeks",
+    "time" : "9:00 am - 12:00 pm (Sat, Sun)",
+    "price" : "180,000 Kyat",
     "discount": "TEN for BYOD",
 
-    "next_class": "4th July, 2015",
+    "next_class": "11th July, 2015",
     "registration_link": "http://goog.gl/AxssdE3",
 }
 
