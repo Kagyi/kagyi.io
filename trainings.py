@@ -80,26 +80,20 @@ android = {
     "discount": "TEN for BYOD",
 
     "next_class": "11th July, 2015",
+    "class_note": """We accept only twelve students in each class. So, hurry up!""",
+
     "registration_link": "http://goog.gl/AxssdE3",
+    "registration_note": "Please, note that your registration is fully completed only after the payment.",
 }
 
-laravel = {
-    "title": "Web Development with Laravel",
-    "image": "img/courses/laravel.jpg",
-    "description": u"""Everything you need to know about network
-    programming using Python, using the latest versions of Python
-    networking modules. Foundations of Python Network Programming
-    benefits both scripters and serious application developers who
-    want a feature-rich, yet simple language to address web and
-    network application coding challenges.""",
+rails = {
+    "title": "Developing Web Apps with Rails",
+    "image": "img/courses/rails.jpg",
+    "description": u"""This course focuses on rapid web application development with ruby on rails framework. In this course, students will get an understanding on Model View Controller, User Authentication Authorization, Javascript, JQuery Ajax, API with Sinatra and ruby library(Gems) which is very commonly used . There will be hands on practical project which will run along the course and students will know the secret: “how to finish the projects with less headaches and more sleeps”.""",
 
-    "trainer_name": "Thura Hlaing - The Bugslayer",
-    "trainer_image": "img/trainers/thura.jpg",
-    "trainer_description": u"""This course is designed for students who are new
-    to programming, and want to learn how to build Android apps. You
-    don’t need any programming experience to take this course. If
-    you’ve been using a smartphone to surf the web and chat with
-    friends, then you’re our perfect target student!""",
+    "trainer_name": "Htoo Myat Aung",
+    "trainer_image": "img/trainers/htoomyat.jpg",
+    "trainer_description": u"""Htoo Myat Aung was a developer, speaker and occasional writer. His professional is on designing, developing and maintaining web applications. Sometimes as team or sometimes as solo.""",
 
 
     "syllabus": [
@@ -111,17 +105,20 @@ laravel = {
     ],
 
     "prerequisites": [
-        u"You must be familiar with Linux and CLI to fully this training.",
-        u"This course is designed for students who are new to programming.",
-        u"This course is designed for students who are new to programming.",
+        u"Require PASSION",
+        u"Requires basic programming knowledge",
+        u"Requires a fundamental understanding of web fundamentals (HTML/CSS)",
     ],
 
 
-    "duration": "Two months",
-    "time" : "9:30 - 11:30 am (Sat, Sun)",
-    "price" : "145,000",
+    "duration": "Ten Weeks",
+    "time" : "3:00 - 5:00 am (Sat, Sun)",
+    "price" : "145,000 Kyat",
     "discount": "TEN for BYOD",
 
-    "next_class": "4th July, 2015",
+    "next_class": "11th July, 2015",
+    "class_note": """We accept only twelve students in each class. So, hurry up!""",
+
     "registration_link": "http://goog.gl/AxssdE3",
+    "registration_note": "Please, note that your registration is fully completed only after the payment.",
 }

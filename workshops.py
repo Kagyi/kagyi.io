@@ -32,10 +32,10 @@ text_processing = {
     "next_class": "21st Jun, 2015 (Sunday)",
 
     "class_note": """Only twenty participants will be accepted in this
-    workshop. Please, register using the link below.""",
+    workshop. Please, register ASAP using the link below.""",
 
     "registration_link": "http://goog.gl/AxssdE3",
 
-    "registration_note": "Please, note that your registration is completed only after you have confirmed with phone (01-555602) or email (admin@kagyi.io)",
+    "registration_note": "Please, note that your registration is completed only after you have confirmed with phone (01-555602) or email (admin@kagyi.io) so that we can better prepare the workshop.",
 
 }
