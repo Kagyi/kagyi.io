@@ -41,8 +41,12 @@ python = {
     "time" : "5:30 - 7:30 pm (Sat, Sun)",
     "price" : "165,000 Kyat",
     "discount": "TEN for BYOD",
+
     "next_class": "11th July, 2015",
+    "class_note": """We accept only twelve students in each class. So, hurry up!""",
+
     "registration_link": "http://goog.gl/AxssdE3",
+    "registration_note": "Please, note that your registration is fully completed only after the payment.",
 }
 
 android = {
