@@ -116,7 +116,7 @@ rails = {
 
 
     "duration": "Ten Weeks",
-    "time" : "3:00 - 5:00 am (Sat, Sun)",
+    "time" : "3:00 - 5:00 pm (Sat, Sun)",
     "price" : "145,000 Kyat",
     "discount": "TEN for BYOD",
 
