@@ -78,7 +78,7 @@ android = {
         u"Must preferably be familiar with any OOP language such as Java or C++",
     ],
 
-    "duration": "Ten Weeks",
+    "duration": "10 Weeks",
     "time" : "9:00 am - 12:00 pm (Sat, Sun)",
     "price" : "180,000 Kyat",
     "discount": "TEN for BYOD",
@@ -101,11 +101,12 @@ rails = {
 
 
     "syllabus": [
-        "Syllabus Item",
-        "Syllabus Item",
-        "Syllabus Item",
-        "Syllabus Item",
-        "Syllabus Item",
+        "Introduction to Rubylang",
+        "Getting started with Rails",
+        "Connecting MVC",
+        "Forms and Validations",
+        "Understanding of API ",
+        "Popular Ruby Gems",
     ],
 
     "prerequisites": [
@@ -115,7 +116,7 @@ rails = {
     ],
 
 
-    "duration": "Ten Weeks",
+    "duration": "10 Weeks",
     "time" : "3:00 - 5:00 pm (Sat, Sun)",
     "price" : "145,000 Kyat",
     "discount": "TEN for BYOD",
