@@ -47,6 +47,9 @@ def learningpage(coursename):
                            workshops=allworkshops,
                            training=course)
 
+@app.route('/googleebd0e4b919c0e268.html')
+def domain_verification():
+    return app.send_static_file('googleebd0e4b919c0e268.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
