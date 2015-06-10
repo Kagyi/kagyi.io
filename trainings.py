@@ -46,7 +46,7 @@ python = {
     "next_class": "11th July, 2015",
     "class_note": """We accept only twelve students in each class. So, hurry up!""",
 
-    "registration_link": "http://goog.gl/AxssdE3",
+    "registration_link": "http://goog.gl/COMINGSOON",
     "registration_note": "Please, note that your registration is fully completed only after the payment.",
 
     "footnotes": [
@@ -97,7 +97,7 @@ android = {
     "next_class": "11th July, 2015",
     "class_note": """We accept only twelve students in each class. So, hurry up!""",
 
-    "registration_link": "http://goog.gl/AxssdE3",
+    "registration_link": "http://goog.gl/COMINGSOON",
     "registration_note": "Please, note that your registration is fully completed only after the payment.",
 
     "footnotes": [
@@ -140,7 +140,7 @@ rails = {
     "next_class": "11th July, 2015",
     "class_note": """We accept only twelve students in each class. So, hurry up!""",
 
-    "registration_link": "http://goog.gl/AxssdE3",
+    "registration_link": "http://goog.gl/COMINGSOON",
     "registration_note": "Please, note that your registration is fully completed only after the payment.",
 
     "footnotes": [
