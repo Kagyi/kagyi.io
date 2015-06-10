@@ -34,7 +34,7 @@ body {
 .btn-default {
     background-color: #f05f40;
     border-color: #aaa;
-    color: #000;
+    color: #eee;
     opacity: 0.9;
     padding: 12px 20px 12px 20px;
 }
@@ -43,7 +43,7 @@ body {
 .btn-default:hover {
     background-color: #f05f40;
     border-color: #aaa;
-    color: #000;
+    color: #fff;
     opacity: 1;
 }
 
