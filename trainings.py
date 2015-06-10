@@ -39,14 +39,20 @@ python = {
 
     "duration": "10 Weeks",
     "time" : "5:30 - 7:30 pm (Sat, Sun)",
-    "price" : "165,000 Kyat",
-    "discount": "TEN for BYOD",
+
+    "price" : "145,000 Kyat for BYOD<sup><a href=\"#fn1\" id=\"ref1\">1</a></sup>",
+    "discount": "TEN percent for EARLYBIRDS<sup><a href=\"#fn2\" id=\"ref2\">2</a></sup>",
 
     "next_class": "11th July, 2015",
     "class_note": """We accept only twelve students in each class. So, hurry up!""",
 
     "registration_link": "http://goog.gl/AxssdE3",
     "registration_note": "Please, note that your registration is fully completed only after the payment.",
+
+    "footnotes": [
+        "Bring Your Own Device. Extra 40,000 Kyat fee is applicable for non-BYOD students.",
+        "Enroll two weeks in advance to get ten percent discount."
+    ],
 }
 
 android = {
@@ -61,7 +67,12 @@ android = {
 
     "trainer_name": "Ye Myat Thu - The Delinquent Developer",
     "trainer_image": "img/trainers/yemyat.jpg",
-    "trainer_description": u"""WANTED""",
+    "trainer_description": u"""Ye Myat Thu is a passionate night
+    hacker who gives up the comfy lifestyle for a rough developer
+    life. Right now, he's totally obsessed with Android and
+    passionately hates a certain partly bitten Apple. In his spare
+    time, he likes reading Fantasy Novels and an avid fan of Harry
+    Potter and The Lord of the Rings.""",
 
     "syllabus": [
         "Installation / setting up",
@@ -80,14 +91,19 @@ android = {
 
     "duration": "10 Weeks",
     "time" : "9:00 am - 12:00 pm (Sat, Sun)",
-    "price" : "180,000 Kyat",
-    "discount": "TEN for BYOD",
+    "price" : "180,000 Kyat for BYOD<sup><a href=\"#fn1\" id=\"ref1\">1</a></sup>",
+    "discount": "TEN percent for EARLYBIRDS<sup><a href=\"#fn2\" id=\"ref2\">2</a></sup>",
 
     "next_class": "11th July, 2015",
     "class_note": """We accept only twelve students in each class. So, hurry up!""",
 
     "registration_link": "http://goog.gl/AxssdE3",
     "registration_note": "Please, note that your registration is fully completed only after the payment.",
+
+    "footnotes": [
+        "Bring Your Own Device. Extra 40,000 Kyat fee is applicable for non-BYOD students.",
+        "Enroll two weeks in advance to get ten percent discount."
+    ],
 }
 
 rails = {
@@ -118,12 +134,17 @@ rails = {
 
     "duration": "10 Weeks",
     "time" : "3:00 - 5:00 pm (Sat, Sun)",
-    "price" : "145,000 Kyat",
-    "discount": "TEN for BYOD",
+    "price" : "145,000 Kyat for BYOD<sup><a href=\"#fn1\" id=\"ref1\">1</a></sup>",
+    "discount": "TEN percent for EARLYBIRDS<sup><a href=\"#fn2\" id=\"ref2\">2</a></sup>",
 
     "next_class": "11th July, 2015",
     "class_note": """We accept only twelve students in each class. So, hurry up!""",
 
     "registration_link": "http://goog.gl/AxssdE3",
     "registration_note": "Please, note that your registration is fully completed only after the payment.",
+
+    "footnotes": [
+        "Bring Your Own Device. Extra 40,000 Kyat fee is applicable for non-BYOD students.",
+        "Enroll two weeks in advance to get ten percent discount."
+    ],
 }

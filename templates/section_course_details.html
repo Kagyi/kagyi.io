@@ -44,7 +44,7 @@
 </div>
 <div class="col-xs-6 col-sm-3">
   <p>
-    {{ training.discount }}
+    {{ training.discount |safe }}
   </p>
 </div>
 
@@ -76,3 +76,12 @@
   <p> <mark class="text-danger">{{ training.registration_note }}</marks></p>
   {% endif %}
 </div>
+
+
+{% if training.footnotes %}
+<div class="col-xs-12">
+  {% for each in training.footnotes %}
+  <p id="fn{{ loop.index }}"><small><mark class="text-info">* {{ each }}</marks></small></p>
+  {% endfor %}
+</div>
+{% endif %}
