@@ -31,10 +31,9 @@ text_processing = {
     "discount": "Not Applicable",
     "next_class": "21st Jun, 2015 (Sunday)",
 
-    "class_note": """Only twenty participants will be accepted in this
-    workshop. Please, register ASAP using the link below.""",
+    "class_note": """Now, you can register for the workshop using the link below.""",
 
-    "registration_link": "http://goog.gl/COMINGSOON",
+    "registration_link": "https://goo.gl/kWh5Xe",
+    "registration_note": "Due to limited space and facilities, we can accept only twenty participants for this workshop. So, please apply only if you are a <b>hundred percent sure</b> you can attend. Also, don't forget that you will need to <b>bring your own laptop</b> with a linux distro installed."
 
-    "registration_note": "Please, note that your registration is completed only after you have confirmed with phone or email so that we can better prepare the workshop.",
 }
