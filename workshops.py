@@ -22,7 +22,7 @@ text_processing = {
     "prerequisites": [
         u"Must have used Linux for more than a few months.",
         u"Must know very basic CLI commands such <strong>`cd`, `ls` and `rm`.</strong>",
-        u"As this is a hands-on workshop, you must <strong>bring your laptop</strong> loaded with a standard Linux distro such as Ubuntu."
+        u"As this is a hands-on workshop, you must <strong>bring your laptop</strong> with a standard Linux distro such as Ubuntu."
     ],
 
     "duration": "Half-day",
