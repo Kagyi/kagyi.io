@@ -29,7 +29,7 @@ text_processing = {
     "time" : "2:00 - 5:00 pm",
     "price" : "<strong>FREE</strong>",
     "discount": "Not Applicable",
-    "next_class": "21st Jun, 2015 (Sunday)",
+    "next_class": "20th Jun, 2015 (Saturday)",
 
     "class_note": """Now, you can register for the workshop using the link below.""",
 
