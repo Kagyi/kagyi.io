@@ -34,6 +34,6 @@ text_processing = {
     "class_note": """Now, you can register for the workshop using the link below.""",
 
     "registration_link": "https://goo.gl/kWh5Xe",
-    "registration_note": "Due to limited space and facilities, we can accept only twenty participants for this workshop. So, please apply only if you are a <b>hundred percent sure</b> you can attend. Also, don't forget that you will need to <b>bring your own laptop</b> with a linux distro installed."
+    "registration_note": "Due to limited space and facilities, we can accept only twenty participants for this workshop. So, please apply only if you are <b>quite sure</b> you can attend. Also, don't forget that you will need to <b>bring your own laptop</b> with a linux distro installed."
 
 }
