@@ -3,7 +3,7 @@
 text_processing = {
     "title": u"Text Processing on Linux",
     "image": "img/workshops/text-processing.jpg",
-    "description": u"""<p>Do you know how many words are there in English that starts with a `Q` and ends with an `E`? Have you ever needed to know which ports were used by  `SNMP` protocol? Have you wanted to populate your current directory with a hundred folders with random English words?</p>
+    "description": u"""<p>Do you know how many words are there in English that starts with a `Q` and ends with an `E`? Have you ever needed to know which ports were used by  `SNMP` protocol? Have you wanted to join two CSV files with a common filed as one?</p>
 
     <p>Do you know that all those tasks can be quickly done or found with simple commands on a Linux system? Whether you are a system administrator or a developer who works frequently on linux, knowing how to use the relevant commands to manipulate the text files will boost your day-to-day productivity and save your time.</p>
 
