@@ -43,7 +43,7 @@ python = {
     "price" : "145,000 Kyat for BYOD<sup><a href=\"#fn1\" id=\"ref1\">1</a></sup>",
     "discount": "TEN percent for EARLYBIRDS<sup><a href=\"#fn2\" id=\"ref2\">2</a></sup>",
 
-    "next_class": "11th July, 2015",
+    "next_class": "1st August, 2015",
     "class_note": """We accept only twelve students in each class. So, hurry up!""",
 
     "registration_link": "https://goo.gl/A1kOXL",
@@ -94,7 +94,7 @@ android = {
     "price" : "180,000 Kyat for BYOD<sup><a href=\"#fn1\" id=\"ref1\">1</a></sup>",
     "discount": "TEN percent for EARLYBIRDS<sup><a href=\"#fn2\" id=\"ref2\">2</a></sup>",
 
-    "next_class": "11th July, 2015",
+    "next_class": "1st August, 2015",
     "class_note": """We accept only twelve students in each class. So, hurry up!""",
 
     "registration_link": "https://goo.gl/IOtJG4",
@@ -137,7 +137,7 @@ rails = {
     "price" : "145,000 Kyat for BYOD<sup><a href=\"#fn1\" id=\"ref1\">1</a></sup>",
     "discount": "TEN percent for EARLYBIRDS<sup><a href=\"#fn2\" id=\"ref2\">2</a></sup>",
 
-    "next_class": "11th July, 2015",
+    "next_class": "1st August, 2015",
     "class_note": """We accept only twelve students in each class. So, hurry up!""",
 
     "registration_link": "https://goo.gl/Y5oH6Y",
