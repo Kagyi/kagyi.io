@@ -32,8 +32,47 @@ text_processing = {
     "next_class": "20th Jun, 2015 (Saturday)",
 
     "class_note": """Now, you can register for the workshop using the link below.""",
-
     "registration_link": "https://goo.gl/kWh5Xe",
-    "registration_note": "Due to limited space and facilities, we can accept only twenty participants for this workshop. So, please apply only if you are <b>quite sure</b> you can attend. Also, don't forget that you will need to <b>bring your own laptop</b> with a linux distro installed."
+    "registration_note": "Please, don't forget that you will need to <b>bring your own laptop</b> with a linux distro installed."
+
+}
+
+git_vcs = {
+    "title": u"Version Control with Git",
+    "image": "img/workshops/git.jpg",
+    "description": u"""<p>Git is the <b>most widely used</b> source code management tool in software industry today; from individual freelancers to big corporations like <b>Google</b>, and <b>Microsoft</b> are using Git to effectively manage their software source codes.</p>
+
+    <p>So, it is not completely wrong to claim that Git has become a <b>essential needed skill</b> for today's software developers. You will learn the following topics in this workshop –</p>
+    """,
+
+    "syllabus" : [
+        u"Introduction to VCS / DVCS",
+        u"Advantages of DVSC",
+        u"Git Essentials (Basic Workflow)",
+        u"Git Branching (Collaborative Workflow)",
+        u"Git Hosting – Github, Gitlab...",
+    ],
+
+    "trainer_name": u"Zaw Myo Htet - The Drunk Codeninja",
+    "trainer_image": "img/trainers/zmh.jpg",
+    "trainer_description": u"""
+    """,
+
+    "prerequisites": [
+        u"Must know basic programming terms. Do you know <b>source code?</b>",
+        u"Comfortable with terminal / command prompt. Do you known <b>cd, ls, dir</b> commands?",
+        u"You need to <strong>bring your laptop</strong>. Mac or Linux preferred, but Windows is also ok.",
+        u"(Optional) Download & install Git on your laptop – <a href=\"https://git-scm.com/downloads\">https://git-scm.com/downloads</a>. "
+    ],
+
+    "duration": "Half-day",
+    "time" : "2:00 - 5:00 pm",
+    "price" : "<strong>FREE</strong>",
+    "discount": "Not Applicable",
+    "next_class": "5th July, 2015 (Sunday)",
+
+    "class_note": """Now, you can register for the workshop using the link below.""",
+    "registration_link": "https://goo.gl/V4qEVv",
+    "registration_note": "Please, don't forget that you will need to <b>bring your own laptop</b>."
 
 }
