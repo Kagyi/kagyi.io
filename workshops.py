@@ -53,9 +53,11 @@ git_vcs = {
         u"Git Hosting – Github, Gitlab...",
     ],
 
-    "trainer_name": u"Zaw Myo Htet - The Drunk Codeninja",
+    "trainer_name": u"Zaw Myo Htet - The Drunk Code Ninja",
     "trainer_image": "img/trainers/zmh.jpg",
     "trainer_description": u"""
+    <p>A simple software engineer with a undying passion for tech. Being a true full-stack developer at heart, coding for any platform – be it mobile or web – excites him.</p>
+    <p>Linux is his playground, and following geek traditions, he pretends to hate Windows. Coffee and beer are the petroleum of his engineering life. Besides coding, he also enjoys playing COC and Dota.</p>
     """,
 
     "prerequisites": [
