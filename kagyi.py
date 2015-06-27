@@ -1,6 +1,8 @@
-from flask import Flask, render_template, abort
+from flask import Flask, render_template, abort, request, session, flash, redirect
 from flask_bootstrap import Bootstrap, WebCDN
 
+from forms import EnrollmentForm
+from utils import get_items_from_python_file
 import trainings, workshops
 
 def create_app():
@@ -9,17 +11,8 @@ def create_app():
     app.extensions['bootstrap']['cdns']['jquery'] = WebCDN(
         '//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/'
     )
+    app.secret_key = 'lveyou'
     return app
-
-def get_items_from_python_file(module):
-    items = [item for item in dir(module) if not item.startswith("__")]
-    all_items = []
-    for item in items:
-        item_info = getattr(module, item)
-        item_link = '/learn/' + item.replace('_', '-')
-        item_info['link'] = item_link
-        all_items.append (item_info)
-    return all_items
 
 app = create_app()
 allcourses = get_items_from_python_file(trainings)
@@ -50,6 +43,18 @@ def learningpage(coursename):
 @app.route('/googleebd0e4b919c0e268.html')
 def domain_verification():
     return app.send_static_file('googleebd0e4b919c0e268.html')
+
+@app.route('/enroll', methods=['POST', 'GET'])
+def enroll():
+    form = EnrollmentForm()
+    if form.validate_on_submit():
+        print "all, ok"
+        pass
+
+    return render_template('enroll.html',
+                           courses=allcourses,
+                           workshops=allworkshops,
+                           form=form)
 
 if __name__ == '__main__':
     app.run(debug=True)

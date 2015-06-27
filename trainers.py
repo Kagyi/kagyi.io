@@ -1,0 +1,9 @@
+keys = {
+    "thura@kagyi.io" : """-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDFzLVY+eEo0kB1HQC4DjHr+fBu
+z0ef5j4IlLc1yXeeARHvJLDtw1GwPahhIWMbHSrdOPAyGIhzB4f+LgWtR81jpmcf
+C5znY8mnuTXlMstf7XjvbaPx/ne969ArjJ9BFUaIcBor18eRf8Cu3tdVhLb+YEM8
+KPpob64RSWkHhnnrFQIDAQAB
+-----END PUBLIC KEY-----
+"""
+}

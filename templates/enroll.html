@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block maincontent %}
+<div class="row">
+  <div class="col-lg-12">
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <p>
+      {% for message in messages %}
+    <mark class="bg-danger">
+      {{ message }}
+    </mark>
+    </p>
+      {% endfor %}
+    {% endif %}
+    {% endwith %}
+  </div>
+
+  <form class="form" action="" method="post" role="form" id="enroll-form" enctype="multipart/form-data">
+    {{ form.hidden_tag() }}
+
+    <div class="col-lg-6">
+      {{ wtf.form_field(form.trainer_email, placeholder="Your Email") }}
+      {{ wtf.form_field(form.trainer_keyfile) }}
+      <p class="help-block">Your public keyfile (*.pem) for authentication.</p>
+    </div>
+
+    <div class="col-lg-6">
+      {{ wtf.form_field(form.student_name, placeholder="Name") }}
+      {{ wtf.form_field(form.student_email, placeholder="Email") }}
+      {{ wtf.form_field(form.student_phone, placeholder="Phone") }}
+      {{ wtf.form_field(form.student_address, placeholder="Address") }}
+
+      <hr/>
+
+      {{ wtf.form_field(form.course_name) }}
+      {{ wtf.form_field(form.course_fees, placeholder="145,000") }}
+
+      {{ wtf.form_field(form.byod_student) }}
+      <p class="help-block">Non-BYOD students will need to pay additional 40,000 Kyat.</p>
+      {{ wtf.form_field(form.payment_received) }}
+      {{ wtf.form_field(form.submit) }}
+    </div>
+  </form>
+</div>
+	<hr/>
+{% endblock %}
+
+
+{% block scripts %}
+	{{ super() }}
+	<script src="{{url_for('.static', filename='js/enroll.js')}}"></script>
+{% endblock %}
