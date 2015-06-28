@@ -48,8 +48,11 @@ def domain_verification():
 def enroll():
     form = EnrollmentForm()
     if form.validate_on_submit():
-        print "all, ok"
-        pass
+        form.course = getattr(trainings, form.course_name.data)
+        invoice_html = render_template('invoice.html',
+                                       submission=form)
+        print invoice_html
+        return invoice_html
 
     return render_template('enroll.html',
                            courses=allcourses,
