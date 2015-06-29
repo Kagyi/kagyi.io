@@ -15,3 +15,8 @@ def get_items_from_python_file(module):
 def get_submissions_path(app_root):
     return os.getenv('OPENSHIFT_DATA_DIR',
                      os.path.join(app_root, 'submissions'))
+
+def get_config_file(app_root):
+    if os.getenv('OPENSHIFT_DATA_DIR'):
+        return os.path.join(os.getenv('OPENSHIFT_DATA_DIR'), 'config.py')
+    return 'config.py'

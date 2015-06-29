@@ -1,14 +1,18 @@
 from flask import Flask, render_template, abort, request, session, flash, redirect
 from flask_bootstrap import Bootstrap, WebCDN
-
-from forms import EnrollmentForm
-from utils import get_items_from_python_file, get_submissions_path
 import trainings, workshops
 import cPickle, time, os
 
+from forms import EnrollmentForm
+from utils import (
+    get_items_from_python_file,
+    get_submissions_path,
+    get_config_file
+)
+
 def create_app():
     app = Flask(__name__)
-    app.config.from_pyfile('config.py')
+    app.config.from_pyfile(get_config_file(app.root_path))
     Bootstrap(app)
     app.extensions['bootstrap']['cdns']['jquery'] = WebCDN(
         '//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/'
