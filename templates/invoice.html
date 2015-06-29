@@ -16,7 +16,7 @@
   <div class="container" style="max-width: 780px; margin: 50px;">
     <div class="row">
       <div class="col-xs-4">
-	<img src="{{ url_for('.static', filename='img/longlogo.png')}}" height="70">
+	<img src="{{ url_for('.static', filename='img/longlogo.png', _external=True)}}" height="70">
       </div>
 
       <div class="col-xs-5 col-xs-offset-3">
@@ -43,8 +43,8 @@
       <div class="col-xs-10 col-xs-offset-1 text-left">
 	<p>
 	  <big>
-	    Received <strong><span style="border-bottom: 1px dotted #000;"> {{ submission.course_fees.data }}</span></strong> Kyat
-	    on behalf of Ko / Ma <strong><span class="text-uppercase" style="border-bottom: 1px dotted #000;">{{ submission.student_name.data }}</span></strong>
+	    Received <strong><span style="border-bottom: 1px dotted #000;"> {{ submission.course_fees }}</span></strong> Kyat
+	    on behalf of Ko / Ma <strong><span class="text-uppercase" style="border-bottom: 1px dotted #000;">{{ submission.student_name }}</span></strong>
 	    as payment fees for the course <strong><span class="text-uppercase" style="border-bottom: 1px dotted #000;">{{ submission.course.title }}</span></strong>.
 	  </big>
 	</p>
@@ -55,10 +55,10 @@
 	</div>
 
 	<div class="col-xs-8">
-	  <p><i style="margin-right: 10px;" class="fa fa-user"></i> <span class="text-uppercase">{{ submission.student_name.data }}</span> </p>
-	  <p><i style="margin-right: 10px;" class="fa fa-envelope"></i> {{ submission.student_email.data }}</p>
-	  <p><i style="margin-right: 10px;" class="fa fa-lg fa-mobile"></i> {{ submission.student_phone.data }}</p>
-	  <p><i style="margin-right: 10px;" class="fa fa-building-o"></i> <span class="text-uppercase">{{ submission.student_address.data }}</span></p>
+	  <p><i style="margin-right: 10px;" class="fa fa-user"></i> <span class="text-uppercase">{{ submission.student_name }}</span> </p>
+	  <p><i style="margin-right: 10px;" class="fa fa-envelope"></i> {{ submission.student_email }}</p>
+	  <p><i style="margin-right: 10px;" class="fa fa-lg fa-mobile"></i> {{ submission.student_phone }}</p>
+	  <p><i style="margin-right: 10px;" class="fa fa-building-o"></i> <span class="text-uppercase">{{ submission.student_address }}</span></p>
 	</div>
 
       </div>
@@ -66,7 +66,7 @@
     </div>
     <hr style="margin-bottom: 0px;"/>
     <div class="col-xs-8 col-xs-offset-1">
-    <small>Enrolled by <span class="text-uppercase" style="border-bottom: 1px dotted #000;">{{ submission.trainer_email.data }}</span></small>
+    <small>Enrolled by <span class="text-uppercase" style="border-bottom: 1px dotted #000;">{{ submission.trainer_email }}</span></small>
     </div>
   </div>
 
