@@ -47,7 +47,7 @@ def send_welcome_mail(submission, pdf_path):
         files=[("attachment", open(pdf_path))],
         data={"from": "Thura Hlaing <thura@kagyi.io>",
               "to": to,
-              "cc": submission['trainer_email'],
+              "cc": [submission['trainer_email'], "Thura Hlaing <thura@kagyi.io>"],
               "subject": subject,
               "text": text}
     )
