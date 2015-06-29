@@ -21,7 +21,7 @@ def main():
         pdf_path = os.path.join(submissions_path, s['student_name'] + ".pdf")
         weasy.write_pdf(pdf_path)
         response = send_welcome_mail(s, pdf_path)
-        print "Response " + str(response.status_code) + " for " + s['student_name']
+        print "Response " + str(response.status_code) + " for " + s['student_name'] + " - ",
         print response.json()
         os.unlink(pdf_path)
 
