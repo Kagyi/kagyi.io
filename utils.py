@@ -1,3 +1,4 @@
+import os
 
 def get_items_from_python_file(module):
     items = [item for item in dir(module) if not item.startswith("__")]
@@ -10,3 +11,7 @@ def get_items_from_python_file(module):
         item_info['name'] = item_name
         all_items.append (item_info)
     return all_items
+
+def get_submissions_path(app_root):
+    return os.getenv('OPENSHIFT_DATA_DIR',
+                     os.path.join(app_root, 'submissions'))

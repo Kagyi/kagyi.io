@@ -4,11 +4,12 @@ import cPickle
 import requests
 from weasyprint import HTML
 from string import Template
-from kagyi import app, ROOT_PATH
+from kagyi import app
+from utils import get_submissions_path
 
 def main():
     submissions = {}
-    submissions_path = os.path.join(ROOT_PATH, 'submissions')
+    submissions_path = get_submissions_path(app.root_path)
     for submission_pkl in sorted(glob.glob(os.path.join(submissions_path, '*.pkl'))):
         with open(submission_pkl, 'rb') as submission_file:
             submission = cPickle.loads(submission_file.read())

@@ -2,13 +2,13 @@ from flask import Flask, render_template, abort, request, session, flash, redire
 from flask_bootstrap import Bootstrap, WebCDN
 
 from forms import EnrollmentForm
-from utils import get_items_from_python_file
+from utils import get_items_from_python_file, get_submissions_path
 import trainings, workshops
 import cPickle, time, os
 
 def create_app():
-    app = Flask(__name__, instance_relative_config=True)
-    app.config.from_pyfile('config')
+    app = Flask(__name__)
+    app.config.from_pyfile('config.py')
     Bootstrap(app)
     app.extensions['bootstrap']['cdns']['jquery'] = WebCDN(
         '//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/'
@@ -19,7 +19,6 @@ def create_app():
 app = create_app()
 allcourses = get_items_from_python_file(trainings)
 allworkshops = get_items_from_python_file(workshops)
-ROOT_PATH = os.path.dirname(os.path.abspath(__file__))
 
 @app.route('/')
 def homepage():
@@ -62,7 +61,8 @@ def enroll():
         del submission['trainer_keyfile']
         timestamp = int(time.time())
 
-        submission_path = os.path.join (ROOT_PATH, 'submissions', str(timestamp) + '.pkl')
+        submission_path = os.path.join (get_submissions_path(app.root_path),
+                                        str(timestamp) + '.pkl')
         with open(submission_path , 'wb') as pickleFile:
             cPickle.dump (submission, pickleFile, -1)
         return receipt
