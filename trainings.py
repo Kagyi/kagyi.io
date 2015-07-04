@@ -91,7 +91,7 @@ android = {
 
     "duration": "10 Weeks",
     "time" : "9:00 am - 12:00 pm (Sat, Sun)",
-    "price" : "145,000 Kyat for BYOD<sup><a href=\"#fn1\" id=\"ref1\">1</a></sup>",
+    "price" : "160,000 Kyat for BYOD<sup><a href=\"#fn1\" id=\"ref1\">1</a></sup>",
     "discount": "TEN percent for EARLYBIRDS<sup><a href=\"#fn2\" id=\"ref2\">2</a></sup>",
 
     "next_class": "1st August, 2015",
@@ -134,7 +134,7 @@ rails = {
 
     "duration": "10 Weeks",
     "time" : "3:00 - 5:00 pm (Sat, Sun)",
-    "price" : "125,000 Kyat for BYOD<sup><a href=\"#fn1\" id=\"ref1\">1</a></sup>",
+    "price" : "145,000 Kyat for BYOD<sup><a href=\"#fn1\" id=\"ref1\">1</a></sup>",
     "discount": "TEN percent for EARLYBIRDS<sup><a href=\"#fn2\" id=\"ref2\">2</a></sup>",
 
     "next_class": "1st August, 2015",
