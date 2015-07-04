@@ -47,7 +47,7 @@ python = {
     "class_note": """We accept only twelve students in each class. So, hurry up!""",
 
     "registration_link": "https://goo.gl/A1kOXL",
-    "registration_note": "Please, note that your registration is fully completed only after you've paid the course fees.",
+    "registration_note": "Please, note that your registration is fully completed only after payment.",
 
     "footnotes": [
         "Bring Your Own Device. Extra 40,000 Kyat fee is applicable for non-BYOD students.",
@@ -98,7 +98,7 @@ android = {
     "class_note": """We accept only twelve students in each class. So, hurry up!""",
 
     "registration_link": "https://goo.gl/IOtJG4",
-    "registration_note": "Please, note that your registration is fully completed only after you've paid the course fees.",
+    "registration_note": "Please, note that your registration is fully completed only after payment.",
 
     "footnotes": [
         "Bring Your Own Device. Extra 40,000 Kyat fee is applicable for non-BYOD students.",
@@ -141,7 +141,7 @@ rails = {
     "class_note": """We accept only twelve students in each class. So, hurry up!""",
 
     "registration_link": "https://goo.gl/Y5oH6Y",
-    "registration_note": "Please, note that your registration is fully completed only after you've paid the course fees.",
+    "registration_note": "Please, note that your registration is fully completed only after payment.",
 
     "footnotes": [
         "Bring Your Own Device. Extra 40,000 Kyat fee is applicable for non-BYOD students.",
