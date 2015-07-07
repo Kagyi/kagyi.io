@@ -90,8 +90,8 @@ android = {
     ],
 
     "duration": "10 Weeks",
-    "time" : "9:00 am - 12:00 pm (Sat, Sun)",
-    "price" : "160,000 Kyat for BYOD<sup><a href=\"#fn1\" id=\"ref1\">1</a></sup>",
+    "time" : "9:30 am - 12:00 pm (Sat, Sun)",
+    "price" : "150,000 Kyat for BYOD<sup><a href=\"#fn1\" id=\"ref1\">1</a></sup>",
     "discount": "TEN percent for EARLYBIRDS<sup><a href=\"#fn2\" id=\"ref2\">2</a></sup>",
 
     "next_class": "1st August, 2015",
